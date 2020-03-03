@@ -79,7 +79,7 @@ for c, m, z1, zh in [('r', 'o', -50, -25), ('b', '^', -30, -5)]:
     xs = randrange(n, 23, 32)
     ys = randrange(n, 0, 100)
     zs = randrange(n, z1, zh)
-    ax.scatter(xs, ys, zs)
+    ax.scatter(xs, ys, zs, marker=m)
 
 ax.set_xlabel('X label')
 ax.set_ylabel('Y label')
