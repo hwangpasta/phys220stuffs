@@ -87,3 +87,5 @@ ax.set_zlabel('Z label')
 
 plt.savefig("scatter3d.png", dpi=600)
 plt.show()
+
+# towards data science animations and whatnot
